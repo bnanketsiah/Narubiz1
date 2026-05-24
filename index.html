@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NARUBIZ Limited | Sustainable Rubber Processing</title>
+    <meta name="description"
+        content="Narubiz Limited is a 100% Ghanaian-owned natural rubber processing factory located in Dompim No. 1, Wassa East. Delivering premium Technically Specified Rubber (TSR) globally.">
+    <meta name="keywords" content="Narubiz, rubber processing, Ghana, TSR, Wassa East, 1D1F, natural rubber">
+    <meta property="og:title" content="NARUBIZ Limited | Sustainable Rubber Processing">
+    <meta property="og:description"
+        content="100% Ghanaian-owned natural rubber processing company. Premium TSR exported to Turkey, Malaysia, and Hong Kong.">
+    <meta property="og:image" content="./assets/logo2.jpeg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_GH">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/jpeg" href="./assets/logo2.jpeg">
+    <link rel="apple-touch-icon" href="./assets/logo2.jpeg">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <noscript>
+        <div style="background-color: var(--accent); color: var(--dark); padding: 1rem; text-align: center; font-weight: 500; position: relative; z-index: 10000;">
+            JavaScript appears to be disabled in your browser. Please enable JavaScript for the full interactive experience and accurate metrics on this site.
+        </div>
+    </noscript>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo"><img src="./assets/logo2.jpeg" alt="Narubiz Logo"></a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="#operations" class="nav-link">Operations</a>
+                <a href="#impact" class="nav-link">Impact</a>
+                <a href="#buyers" class="nav-link">For Buyers</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="mobile-toggle" aria-label="Toggle Navigation Menu"><i data-lucide="menu"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-bg">
+            <div class="overlay"></div>
+            <video autoplay muted playsinline poster="./assets/logo2.jpeg">
+                <source src="./assets/logo_vid.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text-wrapper gs-reveal-up">
+                <h1 class="hero-title">Natural Rubber<br>Business</h1>
+                <p class="hero-tagline">NARUBIZ Limited is a 100% Ghanaian-owned enterprise founded in 2018. Located in Dompim No. 1, Wassa East. We process and deliver premium Technically Specified Rubber (TSR) globally.</p>
+                <div class="quick-links">
+                    <a href="#operations" class="btn btn-primary">Discover Operations</a>
+                    <a href="#contact" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="stat-cards-wrapper gs-reveal-up">
+                <div class="stat-card">
+                    <i data-lucide="briefcase" class="stat-icon"></i>
+                    <div class="stat-info">
+                        <h3>85</h3>
+                        <p>Direct Jobs</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i data-lucide="users" class="stat-icon"></i>
+                    <div class="stat-info">
+                        <h3>1,260+</h3>
+                        <p>Indirect Jobs</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i data-lucide="trending-up" class="stat-icon"></i>
+                    <div class="stat-info">
+                        <h3>$2.1M</h3>
+                        <p>Total Investment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header text-center gs-reveal-up">
+                <span class="subtitle">Who We Are</span>
+                <h2>Driving Industrialization in Ghana</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card gs-reveal-up">
+                    <div class="card-icon"><i data-lucide="eye"></i></div>
+                    <h3>Our Vision</h3>
+                    <p>Excellence in the natural rubber processing and related value-added rubber products.</p>
+                </div>
+                <div class="about-card gs-reveal-up" style="transition-delay: 0.1s;">
+                    <div class="card-icon"><i data-lucide="rocket"></i></div>
+                    <h3>Our Mission</h3>
+                    <p>Establish sustainable employment in the rubber value chain, enhance national development through employee excellence, and apply best management practices for environmental sustainability and profitability.</p>
+                </div>
+                <div class="about-card gs-reveal-up" style="transition-delay: 0.2s;">
+                    <div class="card-icon"><i data-lucide="award"></i></div>
+                    <h3>Core Values</h3>
+                    <p>Innovation, Quality, Teamwork, Integrity, and Respect for all stakeholders and the environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section team" id="team">
+        <div class="container">
+            <div class="section-header text-center gs-reveal-up">
+                <span class="subtitle">Leadership</span>
+                <h2>Meet the Team</h2>
+            </div>
+            <div class="team-grid">
+                <div class="about-card team-card gs-reveal-up">
+                    <img src="./assets/Emmanuel_Akwasi_Owusu.jpeg" alt="Emmanuel Akwasi Owusu" class="team-image">
+                    <h3>Emmanuel Akwasi Owusu</h3>
+                    <span class="team-title">Managing Director</span>
+                    <p>A visionary entrepreneur and rubber industry pioneer, Emmanuel Akwasi Owusu co-founded NARUBIZ to transform
+                        Ghana's rubber value chain from raw export to high-value processing.</p>
+                </div>
+                <div class="about-card team-card gs-reveal-up" style="transition-delay: 0.1s;">
+                    <img src="./assets/captain_james.jpeg" alt="Capt. James Owusu-Koranteng" class="team-image">
+                    <h3>Capt. James Owusu-Koranteng</h3>
+                    <span class="team-title">Director of Operations</span>
+                    <p>Bringing disciplined leadership and operational expertise, Capt. Owusu-Koranteng oversees the
+                        factory's daily processing, quality control, and logistics.</p>
+                </div>
+                <div class="about-card team-card gs-reveal-up" style="transition-delay: 0.2s;">
+                    <img src="./assets/kweku_kum.jpg" alt="Kweku Kum" class="team-image">
+                    <h3>Kweku Kum</h3>
+                    <span class="team-title">Finance Director</span>
+                    <p>As co-owner and Finance Director, Kweku manages the financial operations of the facility,
+                        ensuring sustainable growth, robust export revenue, and long-term economic impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Callout Block -->
+    <div class="sustainability-callout">
+        <div class="container callout-grid">
+            <div class="callout-left gs-reveal-left">
+                <span class="subtitle">ESG Commitment</span>
+                <div class="callout-heading">
+                    <i data-lucide="sun"></i>
+                    <h2>Powered by the Sun</h2>
+                </div>
+            </div>
+            <div class="callout-right gs-reveal-right">
+                <p>NARUBIZ has integrated a solar PV system into its operations, reducing carbon footprint and ensuring
+                    energy resilience for continuous rubber processing — a commitment to sustainable industrialization
+                    in Ghana.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Operations Section -->
+    <section class="section operations dark-bg" id="operations">
+        <div class="container">
+            <div class="section-header gs-reveal-up">
+                <span class="subtitle">Operations & Capacity</span>
+                <h2>From Farm to Global Markets</h2>
+                <p class="section-desc">Delivering high-quality Technically Specified Rubber (TSR) with state-of-the-art
+                    processing capabilities.</p>
+                <img src="./assets/factory_image.jpeg" alt="Narubiz Factory" style="width: 100%; max-width: 700px; max-height: 400px; object-fit: contain; margin-top: 2.5rem; border-radius: 8px;">
+            </div>
+
+            <div class="process-wrapper">
+                <div class="process-step gs-reveal-up">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h4>Raw Material Sourcing</h4>
+                        <p>We source cup lumps from our own farms and through technical agreements with 1,260+ local rubber farmers, ensuring fair pricing and providing technical assistance for higher yields.</p>
+                    </div>
+                </div>
+                <div class="process-step gs-reveal-up">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h4>Processing (1 Ton/Hr)</h4>
+                        <p>Raw latex coagulated into cup lumps is ground to extract water and chemicals. Currently running 24 hours a day with plans to expand to 5 tons/hour.</p>
+                    </div>
+                </div>
+                <div class="process-step gs-reveal-up">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h4>Product (TSR Grade 10)</h4>
+                        <p>Our Technically Specified Rubber is the essential material used globally to manufacture lorry tires, aeroplane tires, rubber bands, and engine seat supports.</p>
+                    </div>
+                </div>
+                <div class="process-step gs-reveal-up">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h4>Export & Value Addition</h4>
+                        <p>Exporting to Europe, Asia, and Africa via Sai Commodities. In the next two years, we will forward integrate into finished products like fan belts and water hoses for car manufacturers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Metrics Section -->
+    <section class="section metrics" id="metrics">
+        <div class="container">
+            <div class="metrics-grid">
+                <div class="metric-card gs-reveal-up">
+                    <div class="metric-value"><span class="counter" data-target="1">0</span></div>
+                    <div class="metric-label">Ton / Hour Current Capacity</div>
+                </div>
+                <div class="metric-card gs-reveal-up" style="transition-delay: 0.1s;">
+                    <div class="metric-value"><span class="counter" data-target="5">0</span></div>
+                    <div class="metric-label">Tons / Hour Future Capacity</div>
+                </div>
+                <div class="metric-card gs-reveal-up" style="transition-delay: 0.2s;">
+                    <div class="metric-value"><span class="counter" data-target="1260">0</span>+</div>
+                    <div class="metric-label">Linked Farmers & Workers</div>
+                </div>
+                <div class="metric-card gs-reveal-up" style="transition-delay: 0.3s;">
+                    <div class="metric-value"><span class="counter" data-target="24">0</span>/7</div>
+                    <div class="metric-label">Operating Hours</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Break -->
+    <div class="image-break gs-reveal" style="height: auto;">
+        <img src="./assets/team.jpeg" alt="Narubiz Team" style="width: 100%; height: auto; max-height: 80vh; object-fit: contain; display: block; background: var(--dark-alt);">
+    </div>
+
+    <!-- Impact & Markets Section -->
+    <section class="section split-section" id="impact">
+        <div class="container">
+            <div class="split-grid">
+                <!-- Impact -->
+                <div class="split-content gs-reveal-left">
+                    <span class="subtitle">Our Impact</span>
+                    <h2>Empowering Communities</h2>
+                    <ul class="impact-list">
+                        <li>
+                            <div class="icon-wrap"><i data-lucide="briefcase"></i></div>
+                            <div>
+                                <strong>Employment</strong>
+                                <span>Currently employing 85 dedicated workers and directly linked to 1,260 people including farmers, transporters, and maintenance workers.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-wrap"><i data-lucide="heart-handshake"></i></div>
+                            <div>
+                                <strong>Future Vision</strong>
+                                <span>Expanding to produce finished products like rubber bushes, floor carpets, rubber bands, and fan belts to support the local car manufacturing industry.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-wrap"><i data-lucide="trending-up"></i></div>
+                            <div>
+                                <strong>Anglican Diocese Partnership</strong>
+                                <span>Upcoming partnership with the Anglican Diocese of Accra to develop 400 hectares of rubber, acting as technical operators.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Markets -->
+                <div class="split-content gs-reveal-right" id="markets">
+                    <span class="subtitle">Global Reach</span>
+                    <h2>Key Markets</h2>
+                    <div class="market-tags">
+                        <span class="market-tag">Europe</span>
+                        <span class="market-tag">Asia</span>
+                        <span class="market-tag">Africa (Tunisia)</span>
+                        <span class="market-tag">United Kingdom</span>
+                    </div>
+
+                    <div class="partners-block" id="partners">
+                        <h3>Strategic Partners</h3>
+                        <div class="partner-logos">
+                            <div class="partner-item">Sai Commodities (UK) - Long-term Off-Taker</div>
+                            <div class="partner-item">Anglican Diocese of Accra</div>
+                            <div class="partner-item">Local Rubber Farmers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Press Section -->
+    <section class="section press" id="press">
+        <div class="container">
+            <div class="section-header text-center gs-reveal-up">
+                <span class="subtitle">Media</span>
+                <h2>In The Press</h2>
+            </div>
+            <div class="press-grid">
+                <div class="about-card press-card gs-reveal-up">
+                    <div class="press-logo">Graphic Online</div>
+                    <p class="press-quote">"The plant is the second rubber processing factory in the country"</p>
+                    <a href="https://www.graphic.com.gh/news/general-news/president-commissions-2-8-million-rubber-factory-in-western-region.html"
+                        target="_blank" rel="noopener noreferrer" class="read-more">Read More &rarr;</a>
+                </div>
+                <div class="about-card press-card gs-reveal-up" style="transition-delay: 0.1s;">
+                    <div class="press-logo">GBC Ghana Online</div>
+                    <p class="press-quote">"President Akufo-Addo commissioned the Narubiz Rubber Factory under the
+                        1-District-1-Factory initiative in Wassa East."</p>
+                    <a href="https://www.gbcghanaonline.com/general/1d1f-president-akufo-addo-commissions-2-1-million-rubber-processing-plant/2021/"
+                        target="_blank" rel="noopener noreferrer" class="read-more">Read More &rarr;</a>
+                </div>
+                <div class="about-card press-card gs-reveal-up" style="transition-delay: 0.2s;">
+                    <div class="press-logo">Graphic Online</div>
+                    <p class="press-quote">"Government committed to enhancing the productivity of local processing
+                        companies like Narubiz"</p>
+                    <a href="https://www.graphic.com.gh/business/business-news/tcda-pledges-government-support-to-boost-rubber-processing-in-western-region.html"
+                        target="_blank" rel="noopener noreferrer" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="section awards" id="awards" style="padding-top: 2rem;">
+        <div class="container">
+            <div class="section-header text-center gs-reveal-up">
+                <span class="subtitle">Excellence</span>
+                <h2>Awards & Recognition</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; max-width: 1000px; margin: 0 auto;">
+                <div class="gs-reveal-up" style="display: flex; justify-content: center; align-items: center;">
+                    <img src="./assets/collecting_aaward.jpeg" alt="Receiving Award" style="max-width: 100%; max-height: 350px; height: auto; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.4); object-fit: contain;">
+                </div>
+                <div class="gs-reveal-up" style="transition-delay: 0.2s; display: flex; justify-content: center; align-items: center;">
+                    <img src="./assets/award.jpeg" alt="Award Plaque" style="max-width: 100%; max-height: 350px; height: auto; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.4); object-fit: contain;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Buyers / Trade Enquiry Page -->
+    <section class="section buyers dark-bg" id="buyers">
+        <div class="container">
+            <div class="section-header gs-reveal-up">
+                <span class="subtitle">B2B Trade</span>
+                <h2>For Buyers</h2>
+            </div>
+            <div class="buyers-grid">
+                <div class="spec-column gs-reveal-left">
+                    <h3>TSR Specifications</h3>
+                    <table class="spec-table">
+                        <tbody>
+                            <tr>
+                                <th>Grade</th>
+                                <td>Technically Specified Rubber (Grade 10)</td>
+                            </tr>
+                            <tr>
+                                <th>Services</th>
+                                <td>TSR Processing & Technical Assistance to Rubber Farmers</td>
+                            </tr>
+                            <tr>
+                                <th>Form</th>
+                                <td>Baled rubber 35kg</td>
+                            </tr>
+                            <tr>
+                                <th>Origin</th>
+                                <td>Ghana (Wassa East)</td>
+                            </tr>
+                            <tr>
+                                <th>Certifications</th>
+                                <td>International TSR specification compliant</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="contact-form gs-reveal-right">
+                    <h3>Trade Enquiry</h3>
+                    <form id="trade-form">
+                        <input type="hidden" name="_subject" value="Trade Enquiry from NARUBIZ Website">
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-person">Contact Person</label>
+                            <input type="text" id="contact-person" name="contact_person" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="trade-email">Email</label>
+                            <input type="email" id="trade-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <input type="text" id="country" name="country" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="volume">Estimated Order Volume</label>
+                            <select id="volume" name="volume" required>
+                                <option value="">Select Volume...</option>
+                                <option value="Under 50T">Under 50T</option>
+                                <option value="50–200T">50–200T</option>
+                                <option value="200T+">200T+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="trade-message">Message</label>
+                            <textarea id="trade-message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-full">Submit Trade Enquiry</button>
+                        <p id="trade-form-status" style="display: none; margin-top: 1rem; color: var(--accent);"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header text-center gs-reveal-up">
+                <span class="subtitle">Get In Touch</span>
+                <h2>Contact Us</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info gs-reveal-up">
+                    <h3>Headquarters</h3>
+                    <p class="location-text"><i data-lucide="map-pin"></i> Dompim No. 1, Near Daboase, Wassa East District, Western Region</p>
+                    <p class="location-text"><i data-lucide="mail"></i> narubizltd@gmail.com</p>
+                    <p class="location-text"><i data-lucide="phone"></i> 024 480 2695 / 054 233 9352</p>
+                    <p class="location-text"><i data-lucide="map"></i> P. O. Box TD 970, Takoradi, Ghana (Digital: WM-2165-7357)</p>
+                    <div class="map-placeholder">
+                        <iframe
+                            src="https://www.google.com/maps?q=Dompim,+Wassa+East,+Western+Region,+Ghana&output=embed"
+                            width="100%" height="100%" style="border:0; border-radius:8px;" allowfullscreen=""
+                            loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form gs-reveal-up">
+                    <form id="contact-form">
+                        <input type="hidden" name="_subject" value="New message from NARUBIZ website">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="How can we help you?"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-full">Send Message</button>
+                        <p id="form-status" style="display: none; margin-top: 1rem; color: var(--accent);"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo"><img src="./assets/logo2.jpeg" alt="Narubiz Logo"></div>
+            <!-- <div class="footer-links">
+                <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+            </div> -->
+            <div class="footer-copy">
+                &copy; 2026 NARUBIZ Limited. All rights reserved. <br> Wassa East, Ghana
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/233542339352?text=Hello%2C%20I%20am%20interested%20in%20NARUBIZ%20rubber%20products"
+        target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat with us on WhatsApp">
+        <i data-lucide="message-circle"></i>
+    </a>
+
+    <script src="./js/script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
